@@ -9,14 +9,16 @@ const Hero = () => {
           <h1 className="lg:text-[60px] text-[48px] leading-[60px] font-bold text-primary">
             Audible{" "}
           </h1>
-          <h1 className="lg:text-[60px] text-[48px] leading-[60px] font-bold text-primary">
-            Smiles{" "}
-          </h1>
-          <p className="break-words text-2xl mt-10 leading-6 text-text-dark">
-            Our digital marketing agency helps businesses grow and succeed
-            online through a range of services including SEO, PPC, social media
-            marketing, and content creation.
-          </p>
+
+          <div className={"break-words text-2xl mt-10 leading-6"}>
+            <p className={"text-yellow-500 shadow-amber-800"}>
+              Smiles.
+            </p>
+            <p className={"text-text-dark"}>
+              You can hear them a mile away, especially when you give back hearing to the one who's lost it. Join us on our mission to make the world a better place for people with hearing loss. One machine at a time.
+            </p>
+          </div>
+
           <div className="mt-10 w-full">
             <button className="border-[1px] px-[32px] py-[24px] rounded-[25px] bg-secondary text-xl font-bold text-white hover:bg-primary hover:text-white hover:border-primary duration-150 lg:w-[auto] tracking-wide">
               Book a Consultation
