@@ -19,7 +19,7 @@ import {} from "./index";
 export const navLinks = [
   { href: "#about", label: "about" },
   { href: "#service", label: "service" },
-  { href: "#cases", label: "cases" },
+  { href: "#cases", label: "FRQ" },
   { href: "#price", label: "price" },
   { href: "#blogs", label: "blogs" },
 ];

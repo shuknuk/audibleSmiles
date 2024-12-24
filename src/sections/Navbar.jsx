@@ -29,7 +29,7 @@ const Navbar = () => {
 
   const handleActive = (label) => {
     setActive(label);
-  };
+  };/**/
 
   const handToggle = () => {
     setToggle(!toggle);
