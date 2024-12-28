@@ -10,8 +10,7 @@ const Team = () => {
           Team
         </h1>
         <p className="text-xl lg:max-w-[50%] lg:text-start text-center font-normal">
-          Meet the skilled and experienced team behind our successful digital
-          marketing strategies
+          The team behind the Audible Smiles.
         </p>
       </header>
       <div className="mt-10 flex flex-1 flex-wrap justify-between w-full">
