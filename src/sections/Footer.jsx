@@ -17,15 +17,6 @@ export const Footer = () => {
           </nav>
 
           <div className="lg:flex hidden gap-3 ">
-            <a href="https://www.linkedin.com/in/himanshu-tyd0072/" target="_blank" className="w-10 h-10 flex justify-center items-center bg-white rounded-full text-[20px] orgiin-center hover:-rotate-90 duration-150 cursor-pointer   ">
-              <i class="ri-linkedin-fill"></i>
-            </a>
-            <a href="https://github.com/himanshu-tyd" target="_blank" className="w-10 h-10 flex justify-center items-center bg-white rounded-full text-[20px] orgiin-center hover:-rotate-90 duration-150 cursor-pointer  ">
-              <i class="ri-github-fill"></i>
-            </a>
-            <a href="https://www.instagram.com/codebucketht" target="_blank" className="w-10 h-10 flex justify-center items-center bg-white rounded-full text-[20px] orgiin-center hover:-rotate-90 duration-150 cursor-pointer  ">
-              <i class="ri-instagram-fill"></i>
-            </a>
           </div>
         </div>
 
