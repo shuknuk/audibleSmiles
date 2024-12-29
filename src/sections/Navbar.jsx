@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { logo1 } from "../assets/images";
 import { navLinks } from "../constants";
-import { Menu } from "../components";
+import { Menu, Logo } from "../components";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -29,7 +28,7 @@ const Navbar = () => {
 
   const handleActive = (label) => {
     setActive(label);
-  };/**/
+  };
 
   const handToggle = () => {
     setToggle(!toggle);
@@ -42,7 +41,7 @@ const Navbar = () => {
       >
         <div className="lg:w-[220px] md:w-[180px] w-[160px] h-auto">
           <a href="/">
-            <img src={logo1} alt="logo" className="w-full" />
+            <Logo />
           </a>
         </div>
 

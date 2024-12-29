@@ -1,13 +1,13 @@
 import React from "react";
-import { logo1 } from "../assets/images";
+import { Logo } from "../components";
 
 export const Footer = () => {
   return (
     <footer className="w-full mt-10 max-sm:px-0 lg:px-[80px] md:px-[40px] px-[30px]">
       <div className="bg-primary rounded-t-[30px] flex-col max-md:p-[25px] h-full p-[50px]">
         <div className="flex flex-wrap flex-row max-md:flex-col justify-between items-center w-full">
-          <div className="">
-            <img src={logo1} alt="logo" className="" />
+          <div className="text-white">
+            <Logo darkMode={true} />
           </div>
 
           <nav className="flex items-center max-md:w-full max-md:mt-3">
