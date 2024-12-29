@@ -21,10 +21,10 @@ import {} from "./index";
 export const navLinks = [
   { href: "#hero", label: "Home" },
   { href: "#initiatives", label: "Initiatives" },
+  { href: "#happy", label: "Happy" },
   { href: "#cases", label: "Case Studies" },
-  { href: "#frq", label: "FRQ" },
+  { href: "#FRQ", label: "FAQ" },
   { href: "#team", label: "Team" },
-  { href: "#testimonials", label: "Testimonials" },
   { href: "#contact", label: "Contact" },
 ];
 
