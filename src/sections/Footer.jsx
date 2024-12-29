@@ -12,46 +12,7 @@ export const Footer = () => {
 
           <nav className="flex items-center max-md:w-full max-md:mt-3">
             <ul className="flex flex-col md:flex-row lg:justify-around w-full gap-5 max-md:gap-3 items-center">
-              <li>
-                <a
-                  href="#"
-                  className="text-light font-light text-[18px] underline hover:text-accent duration-110"
-                >
-                  About-us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-light font-light text-[18px] underline hover:text-accent duration-110"
-                >
-                  Services
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-light font-light text-[18px] underline hover:text-accent duration-110"
-                >
-                  Use Cases
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-light font-light text-[18px] underline hover:text-accent duration-110"
-                >
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-light font-light text-[18px] underline hover:text-accent duration-110"
-                >
-                  Blog
-                </a>
-              </li>
+              
             </ul>
           </nav>
 
