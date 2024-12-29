@@ -8,7 +8,7 @@ const Cards = () => {
       {/* Header */}
       <header className="flex flex-col lg:flex-row items-center gap-6 mt-8 mb-10 px-4">
         <h1 className="text-4xl lg:text-5xl font-bold bg-green-700 text-white px-4 py-2 rounded-md">
-          Join Us! 
+          Join Us!
         </h1>
         <p className="text-lg lg:max-w-[50%] text-gray-700 text-center lg:text-left">
           At Audible Smiles, our goal is to bring hope and the gift of hearing 

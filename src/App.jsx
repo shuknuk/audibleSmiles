@@ -11,7 +11,6 @@ import {Case, Contact, Footer, Happy, Hero, Navbar, Cards, Team, Testimonials, F
               <section className='section'><Case/></section>
               <section className='section'><FRQ/></section>
               <section className='section'><Team/></section>
-              <section className='section'><Testimonials/></section>
               <section className='section'><Contact/></section>
               <Footer/>
           </main>
