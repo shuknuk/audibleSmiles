@@ -17,11 +17,13 @@ import {
 import {} from "./index";
 
 export const navLinks = [
-  { href: "#about", label: "about" },
-  { href: "#service", label: "service" },
-  { href: "#cases", label: "FRQ" },
-  { href: "#price", label: "price" },
-  { href: "#blogs", label: "blogs" },
+  { href: "#hero", label: "Home" },
+  { href: "#initiatives", label: "Initiatives" },
+  { href: "#cases", label: "Case Studies" },
+  { href: "#frq", label: "FRQ" },
+  { href: "#team", label: "Team" },
+  { href: "#testimonials", label: "Testimonials" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export const initiatives = [
@@ -124,74 +126,79 @@ export const workingProcess = [
 ];
 
 export const team = [
-    {
-        icon: linkedln,
-        imgURL: p1,
-        name: "John Smith",
-        job: "CEO and Founder",
-        desc: "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy."
-    },
-    {
-        icon: linkedln,
-        imgURL: p2,
-        name: "Jane Doe",
-        job: "Chief Marketing Officer",
-        desc: "8+ years of experience in branding and marketing. Skilled in social media strategy and market analysis."
-    },
-    {
-        icon: linkedln,
-        imgURL: p3,
-        name: "Robert Brown",
-        job: "Lead Developer",
-        desc: "7+ years of experience in web development. Specializes in front-end technologies and user experience design."
-    },
-    {
-        icon: linkedln,
-        imgURL: p4,
-        name: "Emily White",
-        job: "Content Strategist",
-        desc: "5+ years of experience in content creation and strategy. Expert in copywriting and content marketing."
-    },
-    {
-        icon: linkedln,
-        imgURL: p5,
-        name: "Michael Green",
-        job: "SEO Specialist",
-        desc: "6+ years of experience in SEO. Focused on on-page optimization, link building, and keyword research."
-    },
-    {
-        icon: linkedln,
-        imgURL: p6,
-        name: "Sarah Black",
-        job: "PPC Manager",
-        desc: "4+ years of experience in managing PPC campaigns. Proficient in Google Ads, Bing Ads, and social media advertising."
-    }
+  {
+    icon: linkedln,
+    imgURL: p1,
+    name: "John Smith",
+    job: "CEO and Founder",
+    desc: "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy.",
+  },
+  {
+    icon: linkedln,
+    imgURL: p2,
+    name: "Jane Doe",
+    job: "Chief Marketing Officer",
+    desc: "8+ years of experience in branding and marketing. Skilled in social media strategy and market analysis.",
+  },
+  {
+    icon: linkedln,
+    imgURL: p3,
+    name: "Robert Brown",
+    job: "Lead Developer",
+    desc: "7+ years of experience in web development. Specializes in front-end technologies and user experience design.",
+  },
+  {
+    icon: linkedln,
+    imgURL: p4,
+    name: "Emily White",
+    job: "Content Strategist",
+    desc: "5+ years of experience in content creation and strategy. Expert in copywriting and content marketing.",
+  },
+  {
+    icon: linkedln,
+    imgURL: p5,
+    name: "Michael Green",
+    job: "SEO Specialist",
+    desc: "6+ years of experience in SEO. Focused on on-page optimization, link building, and keyword research.",
+  },
+  {
+    icon: linkedln,
+    imgURL: p6,
+    name: "Sarah Black",
+    job: "PPC Manager",
+    desc: "4+ years of experience in managing PPC campaigns. Proficient in Google Ads, Bing Ads, and social media advertising.",
+  },
 ];
 
 export const testimonials = [
-    {
-        review: "This company transformed our online presence and increased our revenue significantly. Their strategic approach and dedication are unmatched.",
-        name: "Alice Johnson",
-        position: "Marketing Director at ABC Corp"
-    },
-    {
-        review: "The team's expertise in digital marketing and their ability to deliver measurable results have been a game-changer for our business.",
-        name: "David Wilson",
-        position: "CEO of XYZ Ltd"
-    },
-    {
-        review: "Working with this team has been a pleasure. Their insights and strategies have greatly enhanced our brand visibility and engagement.",
-        name: "Emma Brown",
-        position: "Brand Manager at 123 Enterprises"
-    },
-    {
-        review: "Their innovative approach to marketing and thorough understanding of our industry have driven impressive growth for our company.",
-        name: "James Miller",
-        position: "Head of Growth at Innovative Solutions"
-    },
-    {
-        review: "The personalized service and exceptional results we received from this team exceeded our expectations. Highly recommended!",
-        name: "Olivia Smith",
-        position: "Operations Manager at Creative Ventures"
-    }
+  {
+    review:
+      "This company transformed our online presence and increased our revenue significantly. Their strategic approach and dedication are unmatched.",
+    name: "Alice Johnson",
+    position: "Marketing Director at ABC Corp",
+  },
+  {
+    review:
+      "The team's expertise in digital marketing and their ability to deliver measurable results have been a game-changer for our business.",
+    name: "David Wilson",
+    position: "CEO of XYZ Ltd",
+  },
+  {
+    review:
+      "Working with this team has been a pleasure. Their insights and strategies have greatly enhanced our brand visibility and engagement.",
+    name: "Emma Brown",
+    position: "Brand Manager at 123 Enterprises",
+  },
+  {
+    review:
+      "Their innovative approach to marketing and thorough understanding of our industry have driven impressive growth for our company.",
+    name: "James Miller",
+    position: "Head of Growth at Innovative Solutions",
+  },
+  {
+    review:
+      "The personalized service and exceptional results we received from this team exceeded our expectations. Highly recommended!",
+    name: "Olivia Smith",
+    position: "Operations Manager at Creative Ventures",
+  },
 ];
