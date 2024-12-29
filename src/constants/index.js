@@ -74,19 +74,19 @@ export const initiatives = [
 export const caseStudies = [
   {
     title:
-      "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
+      "We teamed up with a local clinic to provide hearing aids to 15 seniors, helping them reconnect with loved ones.",
     icon: arrov,
     btnLabel: "learn more",
   },
   {
     title:
-      "For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.",
+      "In partnership with a rural health center, we donated hearing devices to children, boosting their participation in school.",
     icon: arrov,
     btnLabel: "learn more",
   },
   {
     title:
-      "For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.",
+      "Through community outreach, volunteers fitted hearing aids for underserved families, empowering them to lead fuller lives.",
     icon: arrov,
     btnLabel: "learn more",
   },

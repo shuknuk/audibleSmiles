@@ -1,40 +1,41 @@
-import React, { useState } from "react";
+import React from "react";
 import { caseStudies } from "../constants";
 
 const Case = () => {
-
-  const [active,setActive]=useState(false);
-
-  const handleActive=(title)=>{
-    setActive(title);
-  }
-
-
   return (
     <div className="w-full" id="cases">
-      <header className="flex w-full lg:flex-row flex-col items-center gap-5 ">
-        <h1 className="lg:text-[48px] text-[38px] font-bold bg-green px-4 text-kenit ">
+      <header className="flex w-full lg:flex-row flex-col items-center gap-5">
+        <h1 className="lg:text-[48px] text-[38px] font-bold bg-green px-4 text-kenit">
           Case Studies
         </h1>
-        <p className="text-xl lg:max-w-[50%] lg:text-start text-center font-normal ">
-          Explore Real-Life Examples of Our Proven Digital Marketing Success
-          through Our Case Studies
+        <p className="text-xl lg:max-w-[50%] lg:text-start text-center font-normal">
+          Explore how Audible Smiles has impacted lives by providing hearing aids 
+          and support to underserved communities.
         </p>
       </header>
-      <div className="flex w-full h-full flex-col lg:flex-row items-center justify-center p-[50px]  bg-dark mt-10 rounded-[30px] gap-5 ">
-        {caseStudies.map((items, index) => (
-          <div key={index} className="flex flex-col border-r-2 border-white lg:border-b-0 md:rounded-s-sm-none rounded-full  md:border-b-2  border-b-2 px-4 py-6" >
-            <div className="w-full h-full" onClick={()=>setActive(items.title)}>
-              <h1 className={`${active==items.title ? 'text-green':'text-white'} cursor-pointer font-light w-[70%] leading-6`}>{items.title}</h1>
-            </div>
-            <div className="flex gap-5 bottom-0  items-center mt-8 hover:scale-110 duration-150 " >
-              <a href="#" className="text-green font-light text-grotesk ">{items.btnLabel}</a>
-              <img src={items.icon} alt={items.btnLabel} />
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 w-full h-full p-[50px] bg-dark mt-10 rounded-[30px]">
+        {caseStudies.map((item, index) => (
+          <div
+            key={index}
+            className="flex flex-col bg-white p-6 rounded-2xl shadow-md"
+          >
+            <h2 className="text-xl font-bold mb-4 text-text-dark">
+              {item.title}
+            </h2>
+            <div className="flex items-center mt-auto">
+              <a href="#" className="text-secondary font-bold">
+                {item.btnLabel}
+              </a>
+              <img
+                src={item.icon}
+                alt={item.btnLabel}
+                className="ml-2 w-4 h-4"
+              />
             </div>
           </div>
         ))}
       </div>
-      <div></div>
     </div>
   );
 };
