@@ -1,32 +1,34 @@
 import React from "react";
-import { services } from "../constants";
+import { initiatives } from "../constants";
 import ServicesCard from "../components/ServicesCard";
 
 const Cards = () => {
   return (
-    <div className="flex w-full lg:justify-start flex-col" id="service">
-      <header className="flex w-full lg:flex-row flex-col items-center gap-5 ">
-        <h1 className="lg:text-[48px] text-[38px] font-bold bg-green px-4 text-kanit ">
-          Services
+    <section className="flex w-full flex-col" id="initiatives">
+      {/* Header */}
+      <header className="flex flex-col lg:flex-row items-center gap-6 mt-8 mb-10 px-4">
+        <h1 className="text-4xl lg:text-5xl font-bold bg-green-700 text-white px-4 py-2 rounded-md">
+          Our Initiatives
         </h1>
-        <p className="text-xl lg:max-w-[50%] lg:text-start text-center font-normal">
-          At our digital marketing agency, we offer a range of services to help
-          businesses grow and succeed online. These services include:
+        <p className="text-lg lg:max-w-[50%] text-gray-700 text-center lg:text-left">
+          At Audible Smiles, our goal is to bring hope and the gift of hearing 
+          to those who otherwise cannot afford it. Explore our initiatives below 
+          to learn how you can get involved.
         </p>
       </header>
-      <div className="mt-10 w-full flex flex-wrap flex-1 gap-7 justify-center lg:justify-start">
-        {services.map((items, index ) => {
-          return (
-            <div
-              key={index}
-              className={` group w-[650px] h-[480px] md:h-[380px] flex-row flex  p-[40px] border rounded-[30px] border-b-4 border-r-4 ${items.colors} `}
-            >
-              <ServicesCard {...items} />
-            </div>
-          );
-        })}
+
+      {/* Card Grid */}
+      <div className="flex flex-wrap gap-8 justify-center lg:justify-start px-4">
+        {initiatives.map((item, index) => (
+          <div
+            key={index}
+            className={`group w-full sm:w-[320px] md:w-[400px] lg:w-[320px] xl:w-[360px] p-6 border border-gray-200 rounded-2xl shadow-md hover:shadow-xl transition-shadow ${item.bgColor}`}
+          >
+            <ServicesCard {...item} />
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
 };
 
