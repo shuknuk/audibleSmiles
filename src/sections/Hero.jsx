@@ -48,7 +48,7 @@ const Hero = () => {
 
           <div className="mt-10 w-full">
             <button className="border-[1px] px-[32px] py-[24px] rounded-[25px] bg-secondary text-xl font-bold text-white hover:bg-primary hover:text-white hover:border-primary duration-150 lg:w-[auto] tracking-wide">
-              Book a Consultation
+              Contact Us
             </button>
           </div>
         </div>
