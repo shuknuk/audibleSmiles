@@ -4,7 +4,7 @@ import { TeamCard } from "../components";
 
 const Team = () => {
   return (
-    <div>
+    <div id="team">
       <header className="flex w-full lg:flex-row flex-col items-center gap-5 mr-auto ">
         <h1 className="lg:text-[48px] text-[38px] font-bold bg-green px-4 text-kanit ">
           Team

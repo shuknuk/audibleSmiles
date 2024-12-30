@@ -21,9 +21,8 @@ import {} from "./index";
 export const navLinks = [
   { href: "#hero", label: "Home" },
   { href: "#initiatives", label: "Initiatives" },
-  { href: "#happy", label: "Happy" },
   { href: "#cases", label: "Case Studies" },
-  { href: "#FRQ", label: "FAQ" },
+  { href: "#FRQ", label: "FRQ" },
   { href: "#team", label: "Team" },
   { href: "#contact", label: "Contact" },
 ];
@@ -94,7 +93,7 @@ export const caseStudies = [
   },
 ];
 
-export const workingProcess = [
+export const workingProcess = [ // (personal note also called the FRQ). 
   {
     number: "01",
     title: "Consultation",

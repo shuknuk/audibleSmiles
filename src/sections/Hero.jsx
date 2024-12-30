@@ -17,6 +17,7 @@ const Hero = () => {
   }, []);
 
   return (
+    <div id="hero">
     <section className="flex lg:flex-row flex-col-reverse">
       <header className="lg:w-[50%] w-full">
         <div>
@@ -58,6 +59,7 @@ const Hero = () => {
         <img src={heroImg} alt="hero" />
       </div>
     </section>
+    </div>
   );
 };
 

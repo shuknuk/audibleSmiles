@@ -4,10 +4,10 @@ import { WorkCard } from '../components'
 
 const FRQ = () => {
   return (
-    <div>
+    <div id="FRQ">
       <header className="flex w-full lg:flex-row flex-col items-center gap-5 ">
         <h1 className="lg:text-[48px] text-[38px] font-bold bg-green px-4 text-kanit ">
-          FAQ
+          FRQ
         </h1>
         <p className="text-xl lg:max-w-[50%] lg:text-start text-center font-normal">
           Commonly-asked questions.

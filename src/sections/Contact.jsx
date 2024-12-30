@@ -3,6 +3,7 @@ import { starts } from "../assets/images";
 
 const Contact = () => {
   return (
+    <div id="contact">
     <section className="w-full">
       <div className="flex flex-col">
         <div className="flex flex-col items-center">
@@ -58,6 +59,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

@@ -13,7 +13,7 @@ export const Footer = () => {
           <nav className="flex items-center max-md:w-full max-md:mt-3">
             <ul className="flex flex-col md:flex-row lg:justify-around w-full gap-5 max-md:gap-3 items-center">
               
-            </ul>
+            </ul> 
           </nav>
 
           <div className="lg:flex hidden gap-3 ">
