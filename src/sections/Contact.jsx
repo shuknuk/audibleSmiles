@@ -1,5 +1,5 @@
 import React from "react";
-import { starts } from "../assets/images";
+const logoPath = "public/logoEdit.png";
 
 const Contact = () => {
   return (
@@ -51,7 +51,7 @@ const Contact = () => {
 
           <div className="lg:w-[50%] w-full">
             <img
-              src={starts}
+              src={logoPath}
               alt="contact"
               className="w-full h-full object-cover rounded-[10px]"
             />

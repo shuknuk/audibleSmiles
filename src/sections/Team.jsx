@@ -1,6 +1,7 @@
 import React from "react";
 import { team } from "../constants";
 import { TeamCard } from "../components";
+const logoPath = "public/logoEdit.png";
 
 const Team = () => {
   return (
