@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { heroImg } from "../assets/images";
+const logoPath = "public/logoEdit.png";
 
 // Optional: If you want to integrate Three.js, you could use this ref to mount a canvas
 // and create a small 3D smile or similar animation. This is just a placeholder comment
@@ -56,7 +56,7 @@ const Hero = () => {
       </header>
 
       <div className="lg:w-[50%] w-full flex justify-center items-center">
-        <img src={heroImg} alt="hero" />
+        <img src={logoPath} alt="hero" />
       </div>
     </section>
     </div>

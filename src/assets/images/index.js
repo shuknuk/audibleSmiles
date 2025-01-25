@@ -3,8 +3,6 @@ import starts from "./contactus/stars.png";
 import logo1 from "./logo-1.png";
 import logo2 from "./logo-2.png";
 
-import heroImg from "./HeroImg/hero.png";
-
 import s1 from "./serviceImages/s1.png";
 import s2 from "./serviceImages/s2.png";
 import s3 from "./serviceImages/s3.png";
@@ -30,7 +28,6 @@ export {
   logo1,
     logo2,
 
-  heroImg,
   starts,
 
   s1,
