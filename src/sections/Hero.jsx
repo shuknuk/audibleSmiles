@@ -56,7 +56,7 @@ const Hero = () => {
       </header>
 
       <div className="lg:w-[50%] w-full flex justify-center items-center">
-        <img src={logoPath} alt="hero" />
+        <img src={logoPath} alt="logoPath" />
       </div>
     </section>
     </div>
